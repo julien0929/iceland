@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Roboto";
+    src:url(font/Roboto/Roboto-Black.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/asset/img/pexels-kyle-roxas-2138922.jpg) fixed center/cover;
+}
