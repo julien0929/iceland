@@ -7,8 +7,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    color: black;
 }
 
 body {
     background: url(/asset/img/pexels-kyle-roxas-2138922.jpg) fixed center/cover;
+}
+
+.container {
+        margin: 30px 55px;
+        border-radius: 20px;
+        border: 5px solid #4f4e4e;
+        height: 90vh;
 }
